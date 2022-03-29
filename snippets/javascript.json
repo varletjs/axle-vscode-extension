@@ -1,0 +1,275 @@
+{
+  "axle:export-function": {
+    "prefix": "#ef",
+    "body": [
+      "export function ${1}(${2}) {",
+      "  return ${3}",
+      "}"
+    ],
+    "description": "函数导出"
+  },
+  "axle:get": {
+    "prefix": "#g",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axleHelpers.get('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:get-blob": {
+    "prefix": "#gb",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axleHelpers.getBlob('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:get-document": {
+    "prefix": "#gd",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axleHelpers.getDocument('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:get-text": {
+    "prefix": "#gt",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axleHelpers.getText('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:get-array-buffer": {
+    "prefix": "#ga",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axleHelpers.getArrayBuffer('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:get-stream": {
+    "prefix": "#gs",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axleHelpers.getStream('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:head": {
+    "prefix": "#h",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axleHelpers.head('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:head-blob": {
+    "prefix": "#hb",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axleHelpers.headBlob('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:head-document": {
+    "prefix": "#hd",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axleHelpers.headDocument('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:head-text": {
+    "prefix": "#ht",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axleHelpers.headText('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:head-array-buffer": {
+    "prefix": "#ha",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axleHelpers.headArrayBuffer('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:head-stream": {
+    "prefix": "#hs",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axleHelpers.headStream('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:options": {
+    "prefix": "#o",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axleHelpers.options('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:options-blob": {
+    "prefix": "#ob",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axleHelpers.optionsBlob('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:options-document": {
+    "prefix": "#od",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axleHelpers.optionsDocument('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:options-text": {
+    "prefix": "#ot",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axleHelpers.optionsText('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:options-array-buffer": {
+    "prefix": "#oa",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axleHelpers.optionsArrayBuffer('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:options-stream": {
+    "prefix": "#os",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axleHelpers.optionsStream('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:delete": {
+    "prefix": "#d",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axleHelpers.delete('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:delete-blob": {
+    "prefix": "#db",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axleHelpers.deleteBlob('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:delete-document": {
+    "prefix": "#dd",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axleHelpers.deleteDocument('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:delete-text": {
+    "prefix": "#dt",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axleHelpers.deleteText('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:delete-array-buffer": {
+    "prefix": "#da",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axleHelpers.deleteArrayBuffer('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:delete-stream": {
+    "prefix": "#ds",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axleHelpers.deleteStream('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axle:post": {
+    "prefix": "#p",
+    "body": [
+      "export function ${1:add}(${2:data}) {",
+      "  return axleHelpers.post('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axle:post-json": {
+    "prefix": "#pj",
+    "body": [
+      "export function ${1:add}(${2:data}) {",
+      "  return axleHelpers.postJSON('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axle:post-multipart": {
+    "prefix": "#pm",
+    "body": [
+      "export function ${1:add}(${2:data}) {",
+      "  return axleHelpers.postMultipart('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axle:put": {
+    "prefix": "#pu",
+    "body": [
+      "export function ${1:update}(${2:data}) {",
+      "  return axleHelpers.put('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axle:put-json": {
+    "prefix": "#puj",
+    "body": [
+      "export function ${1:update}(${2:data}) {",
+      "  return axleHelpers.putJSON('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axle:put-multipart": {
+    "prefix": "#pum",
+    "body": [
+      "export function ${1:update}(${2:data}) {",
+      "  return axleHelpers.putMultipart('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axle:patch": {
+    "prefix": "#pa",
+    "body": [
+      "export function ${1:patch}(${2:data}) {",
+      "  return axleHelpers.patch('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axle:patch-json": {
+    "prefix": "#paj",
+    "body": [
+      "export function ${1:patch}(${2:data}) {",
+      "  return axleHelpers.patchJSON('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axle:patch-multipart": {
+    "prefix": "#pam",
+    "body": [
+      "export function ${1:patch}(${2:data}) {",
+      "  return axleHelpers.patchMultipart('${3:}', ${4:data})",
+      "}"
+    ]
+  }
+}
