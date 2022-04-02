@@ -6,7 +6,7 @@
   "description": "axle extension for vscode",
   "publisher": "haoziqaq",
   "author": "ahqrt",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.56.0"
   },
